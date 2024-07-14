@@ -1,0 +1,53 @@
+.dt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    min-width: 300px;
+    height: 220px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    background: #444;
+   margin: 0px 12px;
+   box-sizing: border-box;
+}
+.place{
+    color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style:normal;
+font-family: sans-serif;
+font-weight: 700;
+line-height: normal;
+}
+.time{
+    color: #FFF;
+margin: 8px 0px;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.date{
+    color: #FFF;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media only screen and (min-width: 700px) and (max-width: 900px){
+    .dt{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 700px){
+  .dt{
+    width: 80%;
+    margin: 12px 0px 40px 0px;
+    /* flex-direction: row; */
+  }
+}
