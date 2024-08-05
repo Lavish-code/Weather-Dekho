@@ -125,5 +125,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Lavish-code/
 
 ## Authors
 
-* **Aman Singh** - *Computer Science Student* - [Aman Singh](https://github.com/amansingh1221/) - *Developed Weather-Dekho*
+* **Lavish Yadav** - *Computer Science Student* - [Lavish Yadav](https://github.com/amansingh1221/) - *Developed Weather-Dekho*
 
