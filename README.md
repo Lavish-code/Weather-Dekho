@@ -37,7 +37,7 @@
 
 ## About The Project
 
-![Screen Shot](./src/images/sample.png)
+![Screen Shot](./src/images/Screenshot%202024-08-05%20172833.png)
 
 Weather Dekho is a comprehensive web application designed to provide users with accurate and real-time weather information. Whether you're planning your day, a trip, or just curious about the current weather conditions, Weather Dekho has got you covered. The app combines a user-friendly interface with powerful weather data to deliver a seamless and insightful experience.
 
