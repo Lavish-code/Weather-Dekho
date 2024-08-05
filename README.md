@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/amansingh1221/WeatherDekho">
+  <a href="https://github.com/Lavish-code/Weather-Dekho">
     <img src="./public/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,18 +10,18 @@
     Explore, Plan, and Stay Informed with Weather Dekho – Your Trusted Weather Companion!
     <br/>
     <br/>
-    <a href="https://github.com/amansingh1221/WeatherDekho"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Lavish-code/Weather-Dekho"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/amansingh1221/WeatherDekho">View Demo</a>
+    <a href="https://github.com/Lavish-code/Weather-Dekho">View Demo</a>
     .
-    <a href="https://github.com/amansingh1221/WeatherDekho/issues">Report Bug</a>
+    <a href="https://github.com/Lavish-code/Weather-Dekho/issues">Report Bug</a>
     .
-    <a href="https://github.com/amansingh1221/WeatherDekho/issues">Request Feature</a>
+    <a href="https://github.com/Lavish-code/Weather-Dekho/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/amansingh1221/WeatherDekho/total) ![Contributors](https://img.shields.io/github/contributors/amansingh1221/WeatherDekho?color=dark-green) ![Forks](https://img.shields.io/github/forks/amansingh1221/WeatherDekho?style=social) ![Stargazers](https://img.shields.io/github/stars/amansingh1221/WeatherDekho?style=social) ![Issues](https://img.shields.io/github/issues/amansingh1221/WeatherDekho) ![License](https://img.shields.io/github/license/amansingh1221/WeatherDekho) 
+![Downloads](https://img.shields.io/github/downloads/Lavish-code/Weather-Dekho/total) ![Contributors](https://img.shields.io/github/contributors/Lavish-code/Weather-Dekho?color=dark-green) ![Forks](https://img.shields.io/github/forks/Lavish-code/Weather-Dekho?style=social) ![Stargazers](https://img.shields.io/github/stars/Lavish-code/Weather-Dekho?style=social) ![Issues](https://img.shields.io/github/issues/Lavish-code/Weather-Dekho) ![License](https://img.shields.io/github/license/Lavish-code/Weather-Dekho) 
 
 ## Table Of Contents
 
@@ -121,7 +121,7 @@ Share your ideas to enhance user experience and functionality.
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/amansingh1221/WeatherDekho/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Lavish-code/Weather-Dekho/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
