@@ -84,7 +84,7 @@ npm install npm@latest -g
 2. Clone the repo
 
 ```sh
-git clone https://github.com/amansingh1221/WeatherDekho.git
+git clone https://github.com/Lavish-code/Weather-Dekho.git
 ```
 
 3. Install NPM packages
@@ -125,5 +125,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Lavish-code/
 
 ## Authors
 
-* **Lavish Yadav** - *Computer Science Student* - [Lavish Yadav](https://github.com/amansingh1221/) - *Developed Weather-Dekho*
+* **Lavish Yadav** - *Computer Science Student* - [Lavish Yadav](https://github.com/Lavish-code/) - *Developed Weather-Dekho*
 
