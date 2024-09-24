@@ -1,19 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useEffect } from "react";
-import { useState } from "react";
-// import dotenv from "dotenv";
-
 import "./Weatherdashboard.css";
 import DateandTime from "./Components/DateandTime/DateandTime";
 import Weather from "./Components/Weather/Weather";
 import Dayforecast from "./Components/Dayforecast/Dayforecast";
 import Hourforecast from "./Components/Hourforecast/Hourforecast";
 import search from "./images/search.svg";
-// import logo from "./images/WeatherVibes1.jpg"
 
 const Weatherdashboard = () => {
-  const apiKey = "a3e8b99a744e46e4c8880d9bdf1f19c7";
+  const apiKey = "2e400cdde9f63cb8f6be13b124885f6d";
 
   const [city, setCity] = useState('delhi');
   const [cityData, setCityData] = useState(null);
@@ -25,8 +20,8 @@ const Weatherdashboard = () => {
     event.preventDefault();
     fetchData();
     setSearchedCity(city);
-    
   };
+
   const fetchData = async () => {
     try {
       setLoading(true);
@@ -47,10 +42,15 @@ const Weatherdashboard = () => {
     }
   };
 
-
   useEffect(() => {
     fetchData();
   }, []);
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleSubmit(event);
+    }
+  };
 
   if (loading) {
     return (
@@ -68,15 +68,17 @@ const Weatherdashboard = () => {
     );
   }
 
-
-
   return (
     <div className="weatherdashboard">
       <div className="search-bar">
-        {/* <div><img src={logo}/></div> */}
         <form>
-          <img src={search} />
-          <input type="text" placeholder="Search City" onChange={(e)=>{setCity(e.target.value)}}/>
+          <img src={search} alt="Search Icon" />
+          <input 
+            type="text" 
+            placeholder="Search City" 
+            onChange={(e) => setCity(e.target.value)} 
+            onKeyPress={handleKeyPress} // Add this line
+          />
         </form>
         <input type="button" value="Search" onClick={handleSubmit} />
       </div>
@@ -90,8 +92,8 @@ const Weatherdashboard = () => {
       </div>
       <footer>
         <h5> Copyright &copy; 2023 Weather Dekho. Designed and Developed by <a
-        href="https://github.com/Lavish-code"> LAVISH YADAV</a></h5>
-    </footer>
+        href="https://github.com/Vinayak9889"> Vinayak Shukla</a></h5>
+      </footer>
     </div>
   );
 };
