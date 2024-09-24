@@ -92,7 +92,7 @@ const Weatherdashboard = () => {
       </div>
       <footer>
         <h5> Copyright &copy; 2023 Weather Dekho. Designed and Developed by <a
-        href="https://github.com/Vinayak9889"> Vinayak Shukla</a></h5>
+        href="https://github.com/Lavish-code"> Lavish Yadav</a></h5>
       </footer>
     </div>
   );
